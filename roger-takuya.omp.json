@@ -10,7 +10,7 @@
           "leading_diamond": "\u256d\u2500\ue0b6",
           "foreground": "#ffffff",
           "background": "#007ACC",
-          "template": "{{ .Icon }} "
+          "template": " {{ .Icon }} "
         },
 
         {
