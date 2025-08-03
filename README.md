@@ -14,8 +14,6 @@ Este repositorio contiene mi configuración personalizada de terminal usando [Oh
 ## Estructura
 
 ```markdown
-```
-
 dotfiles/
 ├── windows/
 │   └── oh-my-posh/
@@ -24,8 +22,6 @@ dotfiles/
 │   └── oh-my-posh/
 │       └── roger-takuya.omp.json
 └── install.ps1    # Script opcional para aplicar el tema en Windows
-
-```
 ```
 
 ## ⚙️ Requisitos
