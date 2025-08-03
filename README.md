@@ -1,57 +1,20 @@
-# 🎨 Roger's Dotfiles for Oh My Posh
+# Roger Takuya OMP Theme
+Tema personalizado de Oh My Posh basado en `takuya`, optimizado para PowerShell en Windows y Bash en Ubuntu.
 
-Este repositorio contiene mi configuración personalizada de terminal usando [Oh My Posh](https://ohmyposh.dev/), diseñada para funcionar tanto en **Windows (PowerShell)** como en **Ubuntu (Bash)**.
-
-## Características
-
-- 💠 Tema inspirado en el estilo Takuya
-- 🕒 Hora en formato 12h (AM/PM)
-- 🧠 Información del entorno virtual en Python
-- 🪟 Icono del sistema operativo (Windows o Linux) dinámico
-- 🔤 Nerd Fonts + estilo minimalista
-- ⚙️ Scripts para instalación rápida en cada sistema
-
-## Estructura
-
-```markdown
-dotfiles/
-├── windows/
-│   └── oh-my-posh/
-│       └── roger-takuya.omp.json
-├── ubuntu/
-│   └── oh-my-posh/
-│       └── roger-takuya.omp.json
-└── install.ps1    # Script opcional para aplicar el tema en Windows
-```
-
-## ⚙️ Requisitos
-
-- [Oh My Posh](https://ohmyposh.dev/docs/installation)
-- [Nerd Font](https://www.nerdfonts.com/font-downloads) (recomendado: Caskaydia Cove Nerd Font)
-- PowerShell o Bash según el sistema operativo
-
----
-
-## 🚀 Instalación en Windows
-
-1. Clona el repositorio:
-
+## Instalación
+### Windows (PowerShell)
 ```powershell
-git clone https://github.com/rogerroca14/dotfiles.git
+oh-my-posh init pwsh --config "$env:LOCALAPPDATA\Programs\oh-my-posh\themes\roger-takuya.omp.json" | Invoke-Expression
+````
+
+### Ubuntu (Bash)
+```bash
+eval "$(oh-my-posh init bash --config ~/.poshthemes/roger-takuya.omp.json)"
 ```
 
-2. Aplica el tema (ajusta la ruta si es necesario):
-```powershell
-oh-my-posh init pwsh --config "$env:USERPROFILE\dotfiles\windows\oh-my-posh\roger-takuya.omp.json" | Invoke-Expression
-```
+## Requisitos
+* [Oh My Posh](https://ohmyposh.dev)
+* Nerd Font (como Fira Code o Cascadia Code)
 
-## 🐧 Instalación en Ubuntu
-1. Clona el repositorio:
-```bash
-git clone https://github.com/rogerroca14/dotfiles.git
-```
-2. Aplica el tema desde Bash:
-```bash
-eval "$(oh-my-posh init bash --config ~/dotfiles/ubuntu/oh-my-posh/roger-takuya.omp.json)"
-```
-> También puedes añadir esa línea al final de tu ~/.bashrc o ~/.bash_profile.
+## Nota
+> El ícono del sistema cambia según el SO. Tema compartido entre Windows y Ubuntu.
