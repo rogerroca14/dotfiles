@@ -6,7 +6,7 @@ Este repositorio contiene mi configuración personalizada de terminal usando [Oh
 
 - 💠 Tema inspirado en el estilo Takuya
 - 🕒 Hora en formato 12h (AM/PM)
-- 🧠 Información del entorno virtual
+- 🧠 Información del entorno virtual en Python
 - 🪟 Icono del sistema operativo (Windows o Linux) dinámico
 - 🔤 Nerd Fonts + estilo minimalista
 - ⚙️ Scripts para instalación rápida en cada sistema
@@ -37,7 +37,7 @@ dotfiles/
 1. Clona el repositorio:
 
 ```powershell
-git clone https://github.com/tuusuario/dotfiles.git
+git clone https://github.com/rogerroca14/dotfiles.git
 ```
 
 2. Aplica el tema (ajusta la ruta si es necesario):
@@ -48,7 +48,7 @@ oh-my-posh init pwsh --config "$env:USERPROFILE\dotfiles\windows\oh-my-posh\roge
 ## 🐧 Instalación en Ubuntu
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tuusuario/dotfiles.git
+git clone https://github.com/rogerroca14/dotfiles.git
 ```
 2. Aplica el tema desde Bash:
 ```bash
